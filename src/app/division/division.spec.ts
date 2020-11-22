@@ -1,44 +1,43 @@
-import {addition} from "./addition";
+import {division} from "./division";
 
 describe ('addition unit test', () => {
 
-
-    xit('s should add 2+2=4',() =>{
+    it('should divide 2/2=1',() =>{
 
       // pattern AAA (Arrange - Act - Assert)
       // Arrange
       let result = 0;
       //Act
-        result = addition(0,-2);
+        result = division(2,2);
       //Assert  
-        expect (result).toBe(-2);
+        expect (result).toBe(1);
     })
     
-    xit(' should add 5+5=10 ',() =>{
+    it(' should divide 9/2=4.5 ',() =>{
             
             // Arrange
             let result = 0;
             // Act
-            result = addition(5,5);
+            result = division(9,2);
             // Asset
-            expect (result).toBe(10);
+            expect (result).toBe(4.5);
         })
-    xit(' should add 4+2=6 ',() =>{
+    it(' should divide 3.0/0.5=7 ',() =>{
             
             // Arrange
             let result = 0;
             // Act
-            result = addition(4,2);
+            result = division(3.0,0.5);
             // Asset
             expect (result).toBe(6);
         })    
-    xit(' should add 5.3+5.3=10.6',() =>{
+    it(' should divide 0/1=0',() =>{
             
             // Arrange
             let result = 0;
             // Act
-            result = addition(5.3,5.3);
+            result = division(0,1);
             // Asset
-            expect (result).toBe(10.6);
+            expect (result).toBe(0);
         })     
 })
