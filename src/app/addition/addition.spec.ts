@@ -14,31 +14,31 @@ describe ('addition unit test', () => {
         expect (result).toBe(-2);
     })
     
-    xit(' should add 5+5=10 ',() =>{
+    it(' should add 5+5=10 ',() =>{
             
             // Arrange
             let result = 0;
             // Act
-            result = addition(0,1);
+            result = addition(5,5);
             // Asset
-            expect (result).toBe(2);
+            expect (result).toBe(10);
         })
-    xit(' should add 8-2=6 ',() =>{
+    it(' should add 4+2=6 ',() =>{
             
             // Arrange
             let result = 0;
             // Act
-            result = addition(0,1);
+            result = addition(4,2);
             // Asset
-            expect (result).toBe(2);
+            expect (result).toBe(6);
         })    
-    xit(' should add 5.3+5.3=10.6',() =>{
+    it(' should add 5.3+5.3=10.6',() =>{
             
             // Arrange
             let result = 0;
             // Act
-            result = addition(0,1);
+            result = addition(5.3,5.3);
             // Asset
-            expect (result).toBe(2);
+            expect (result).toBe(10.6);
         })     
 })
