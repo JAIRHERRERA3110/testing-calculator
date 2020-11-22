@@ -1,6 +1,6 @@
 import {multiplication} from "./multiplication";
 
-describe ('addition unit test', () => {
+describe ('multiplicacion unit test', () => {
     
 
     it('should add 2*2=4',() =>{
@@ -9,7 +9,7 @@ describe ('addition unit test', () => {
       // Arrange
       let result = 0;
       //Act
-        result = multiplication(2,-2);
+        result = multiplication(2,2);
       //Assert  
         expect (result).toBe(4);
     })

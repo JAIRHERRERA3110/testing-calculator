@@ -3,7 +3,7 @@ import {addition} from "./addition";
 describe ('addition unit test', () => {
 
 
-    xit('s should add 2+2=4',() =>{
+    it('s should add 2+2=4',() =>{
 
       // pattern AAA (Arrange - Act - Assert)
       // Arrange
@@ -14,7 +14,7 @@ describe ('addition unit test', () => {
         expect (result).toBe(-2);
     })
     
-    xit(' should add 5+5=10 ',() =>{
+    it(' should add 5+5=10 ',() =>{
             
             // Arrange
             let result = 0;
@@ -23,7 +23,7 @@ describe ('addition unit test', () => {
             // Asset
             expect (result).toBe(10);
         })
-    xit(' should add 4+2=6 ',() =>{
+    it(' should add 4+2=6 ',() =>{
             
             // Arrange
             let result = 0;
@@ -32,7 +32,7 @@ describe ('addition unit test', () => {
             // Asset
             expect (result).toBe(6);
         })    
-    xit(' should add 5.3+5.3=10.6',() =>{
+    it(' should add 5.3+5.3=10.6',() =>{
             
             // Arrange
             let result = 0;

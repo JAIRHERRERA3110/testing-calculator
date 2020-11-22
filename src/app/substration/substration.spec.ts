@@ -1,6 +1,6 @@
 import {substration} from "./substration";
 
-describe ('addition unit test', () => {
+describe ('resta unit test', () => {
  
 
     it('should add 3-2=1',() =>{

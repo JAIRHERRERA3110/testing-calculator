@@ -1,6 +1,6 @@
 import {division} from "./division";
 
-describe ('addition unit test', () => {
+describe ('division unit test', () => {
 
     it('should divide 2/2=1',() =>{
 
